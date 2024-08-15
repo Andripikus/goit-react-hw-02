@@ -1,0 +1,14 @@
+import css from "../Options/Options.module.css";
+
+export default function Options({ onLeaveFeedback, totalFeedback }) {
+  return (
+    <div className={css.options}>
+      <button onClick={() => onLeaveFeedback("good")}>Good</button>
+      <button onClick={() => onLeaveFeedback("neutral")}>Neutral</button>
+      <button onClick={() => onLeaveFeedback("bad")}>Bad</button>
+      {totalFeedback > 0 && (
+        <button onClick={() => onLeaveFeedback("reset")}>Reset</button>
+      )}
+    </div>
+  );
+}
