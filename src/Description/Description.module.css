@@ -1,0 +1,18 @@
+.descriptionContainer {
+    background-color: blue;
+    border: 2px solid rgb(34, 15, 145);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.appTitle {
+    font-size: 36px;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.description {
+    font-size: 18px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
